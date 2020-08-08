@@ -1,0 +1,74 @@
+:root {/*variavceis do CSS*/
+--color-background: #F0F0F7;
+--color-primary: #9871f5;
+--color-primary:#916BEA;
+--color-primary:#8257E5;
+--color-primary-dark:#774DD6;
+--color-primary-darker:#6B42C2;
+--color-segundary:#04D361;
+--color-segundary-dark:#04BF5B;
+--color-title-in-primary:#ffffff;
+--color-text-in-primary:#D4C2FF;
+--color-text-title:#32264D;
+--color-text-complement:#9C98A6;
+--color-text-base:#6A6180;
+--color-line-in-white:#E6E6F0;
+--color-button-text:#FFFFFF;
+--color-box-base:#FFFFFF;
+--color-box-footer:#FAFAFC;
+--color-small-info:#C1BCCC;
+
+/*tamannho das fontes padrao:16px - 100% - 1rem*/
+font-size: 60%;/* Controle das medidas ren*/
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+}
+
+body{
+    background-color: var(--color-backgroundS);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body,
+input,
+button,
+textarea {
+    font:500 1.6rem Poppins;
+    /*font-weight: 500;
+    font-family: Poppins;
+    font-size: 1.6rem;*/
+    color: var(--color-text-base);
+}
+
+/*body,
+input,
+button,
+textarea {
+    font:500 1.6rem Poppins;
+    font-weight: 500;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    color: var(--color-text-base);
+}
+*/
+/*#container{
+    bom model
+    border:1px solid red;
+    padding: 40px;
+    margin: 60px;
+
+    width: 300px;
+    height: 300px;
+
+}
+*/

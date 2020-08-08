@@ -1,0 +1,34 @@
+
+.select-block label,
+.input-block label{
+    font-size: 1.4rem;
+    color: var(--color-text-complement);
+}
+
+.input-block input,
+.select-block select { /*colocar as bordas dos campus de selção mais bonito*/
+    width: 100%;
+    height: 5.6rem;
+    margin-top: 0.8rem;
+    border-radius: 0.8rem;
+    background: var(--color-input-background);
+    border: 1px solid var(--color-line-in-white);
+    outline: 0;
+    padding: 0 1.6rem;
+    font: Archivo;
+}
+
+.input-block { /*relativo ao seu filho*/
+    position: relative;
+}
+
+.input-block:focus-within::after { /**foco no bloco selecionado*/
+    content: "";
+
+    width: calc(100% - 3.2rem); /*calcular o tamanho da caixa menos o tamanho do foco*/
+    height: 2px;
+    background: var(--color-primary-light);
+    position: absolute; /*ele cria uma nova folha e coloca o foco a cima dessa nova folha*/
+    left: 1.6rem; /*definição das posições*/
+    bottom: 0;
+}

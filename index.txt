@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="pt_br"><!--isso é uma tag html--><!--Lang é um atributo-->
+
+<!--HTML é uma marcação de hiper texto-->
+
+<head>
+    <!--Configurações do meu documento-->
+    <meta charset="UTF-8"><!--uma meta de configuração da pagina-->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--uma meta de configuração de configuração de telas-->
+    
+    <!-- COmentario-->   
+    
+    <title>Proffy | Sua plataforma de estudo</title>
+
+    <style>
+           
+    
+    
+    /*Comentario CSS*/
+    /* Cascading Style Sheets
+    Folha de estilo em cascata
+    
+    
+    */
+    
+    
+    
+    </style>
+
+    <link rel="stylesheet" href="">
+
+
+
+</head>
+<body id="page-landing"><!--id é a identificação da seua página-->
+    <!--Todo conteudo visivel na pagina deverá vir na tag body-->
+
+    <h1>Proffy</h1>
+    <!--h1 usa o display block ocupando toda linha-->
+    <p>Sua plataaforma de estudos online</p>
+
+    <img src="" alt="logo">
+
+    <button>Estudar</button>
+
+    <button> Dar Aulas</button>
+</body>
+</html>
